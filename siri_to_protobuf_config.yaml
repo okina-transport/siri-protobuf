@@ -1,6 +1,6 @@
 outputFilename:
 outputDirectory: target/proto
-forceProtoPackage:
+forceProtoPackage: uk.org.siri.www.siri
 includeMessageDocs: true
 includeFieldDocs: true
 includeSourceLocationInDoc: true
@@ -29,12 +29,18 @@ ignoreOutputFields:
   - uk.org.ifopt.www.ifopt/InstalledEquipmentStructure/EquipmentName
   - uk.org.ifopt.www.ifopt/LocalServiceStructure/EquipmentName
   - uk.org.ifopt.www.ifopt/FeatureRefsType/FeatureRef
-  - eu.datex2.schema._2_0rc1._2_0/TpegDescriptor/descriptor
-  - eu.datex2.schema._2_0rc1._2_0/TpegAreaDescriptor/descriptor
-  - eu.datex2.schema._2_0rc1._2_0/TpegPointDescriptor/descriptor
-  - eu.datex2.schema._2_0rc1._2_0/TpegIlcPointDescriptor/descriptor
-  - eu.datex2.schema._2_0rc1._2_0/TpegOtherPointDescriptor/descriptor
-  - eu.datex2.schema._2_0rc1._2_0/TpegJunctionPointDescriptor/descriptor
+  - eu.datex2.schema.v2_0rc1.v2_0/TpegDescriptor/descriptor
+  - eu.datex2.schema.v2_0rc1.v2_0/TpegAreaDescriptor/descriptor
+  - eu.datex2.schema.v2_0rc1.v2_0/TpegPointDescriptor/descriptor
+  - eu.datex2.schema.v2_0rc1.v2_0/TpegIlcPointDescriptor/descriptor
+  - eu.datex2.schema.v2_0rc1.v2_0/TpegOtherPointDescriptor/descriptor
+  - eu.datex2.schema.v2_0rc1.v2_0/TpegJunctionPointDescriptor/descriptor
+  - uk.org.siri.www.siri/TpegDescriptor/descriptor
+  - uk.org.siri.www.siri/TpegAreaDescriptor/descriptor
+  - uk.org.siri.www.siri/TpegPointDescriptor/descriptor
+  - uk.org.siri.www.siri/TpegIlcPointDescriptor/descriptor
+  - uk.org.siri.www.siri/TpegOtherPointDescriptor/descriptor
+  - uk.org.siri.www.siri/TpegJunctionPointDescriptor/descriptor
   - uk.org.siri.www.siri/FacilityStructure/Features
 #  - uk.org.siri.www.siri/UnknownExtensionsErrorStructure/connectionLinksDelivery
 #  - uk.org.ifopt.www.acsb/AccessibilityLimitationStructure/Extensions
