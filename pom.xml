@@ -18,7 +18,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.entur</groupId>
     <artifactId>siri-protobuf</artifactId>
-    <version>0.2-mobiiti-SNAPSHOT</version>
+    <version>0.2-mobiiti</version>
 
     <name>Protobuf descriptor files for SIRI</name>
     <description>Generates protobuf descriptor files based on SIRI xsd</description>
